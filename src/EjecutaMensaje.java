@@ -19,7 +19,6 @@ public class EjecutaMensaje {
         System.out.print("La frase sin espacios ni puntos es: "+comparar1);
         frase.fraseInvertida();
         comparar2 = frase.getFrase();
-        //System.out.println("La frase invertida es: "+comparar2);
         
         if(comparar1.equals(comparar2)){
             System.out.println("\nLa frase es palindroma");
@@ -29,13 +28,7 @@ public class EjecutaMensaje {
         }
         
         boolean resultado;
-        /*resultado = frase1.isPalindromo(frase);
-        if(resultado){
-            System.out.println("La frase es Palindroma");
-        }
-        else{
-            System.out.println("la frase no es palindroma");
-        }*/
+        
         resultado = frase1.soloLetras(frase);
         if(resultado){
             System.out.println("La frase es alfabetica");
