@@ -26,9 +26,8 @@ public class Validaciones {
         String comparar = frase.getFrase();
         frase.darFormato();
         StringBuilder invertir = new StringBuilder(comparar);
-        StringBuilder invertida;
-        invertida = invertir.reverse();
-        if(comparar.equals(invertida)){
+        invertir.reverse();
+        if(comparar.equals(invertir)){
             return true;
         }else{
             return false;
